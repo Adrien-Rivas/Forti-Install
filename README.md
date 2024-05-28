@@ -1,5 +1,4 @@
 # Forti-Install
-Python Script for first fortigate installation
 
 This script is used to pre-configure a Fortigate after Out of Box in Zero Touch Mode.
 
