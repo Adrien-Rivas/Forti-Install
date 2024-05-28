@@ -1,0 +1,10 @@
+config system interface
+edit vlan_lan
+set type vlan
+set vlanid 10
+set interface lan
+set ip 10.20.30.40/24
+set vdom root
+next
+end
+exit
