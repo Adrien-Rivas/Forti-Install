@@ -2,11 +2,11 @@ import paramiko
 import time
 
 # Configuration
-host = '192.168.1.99'
+host = '192.168.1.99' #Remplace par l'adresse du Firewall
 port = 22
-username = 'admin'
+username = 'admin' #Compte par défaut
 new_password = 'password'  # Remplace par le mot de passe souhaité
-file_commands = '/home/adrien/Documents/scripts/commands.txt'
+file_commands = '/home/user/Documents/scripts/commands.txt' #Chemin du fichier contenant les commandes Fortigate à exécuter
 
 # Connexion SSH
 client = paramiko.SSHClient()
